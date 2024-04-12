@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "name": "Root",
+      "path": "../"
+    },
+    {
+      "name": "lint-configuration",
+      "path": "../packages/lint-configuration"
+    },
+    {
+      "name": "lint-configuration-website",
+      "path": "../packages/lint-configuration-website"
+    }
+  ],
+  "settings": {
+  }
+}
