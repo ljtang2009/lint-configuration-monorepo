@@ -19,6 +19,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: false
+          submodules: recursive
 
       - name: Setup pnpm environment
         uses: ./.github/actions/setup-pnpm
