@@ -9,11 +9,10 @@ const workspaceConfig = parseJson(
   fs.readFileSync(
     path.resolve(__dirname, '../../.vscode/lint-configuration-monorepo.code-workspace'),
     'utf8',
-  )
+  ),
 );
 
 let scopes = workspaceConfig.folders.map((item) => item.name.toLowerCase());
-
 
 const SCOPE_CACHE_PATH = path.resolve(
   __dirname,
