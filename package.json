@@ -32,6 +32,7 @@
     "husky": "^9.0.11",
     "jsonc-parser": "^3.2.1",
     "lint-configuration": "workspace:*",
+    "lint-staged": "^15.2.2",
     "lodash": "^4.17.21",
     "markdownlint-cli2": "^0.13.0",
     "only-allow": "^1.2.1",
