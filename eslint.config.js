@@ -1,5 +1,5 @@
 import globals from 'globals';
-import { eslint } from 'lint-configuration';
+import { eslint } from '@ljtang2009/lint-configuration';
 import _ from 'lodash';
 
 const baseConfig = _.merge(

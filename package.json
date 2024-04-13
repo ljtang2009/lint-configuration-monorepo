@@ -21,6 +21,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
+    "@ljtang2009/lint-configuration": "workspace:*",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "commitizen": "^4.3.0",
@@ -31,7 +32,6 @@
     "globals": "^15.0.0",
     "husky": "^9.0.11",
     "jsonc-parser": "^3.2.1",
-    "lint-configuration": "workspace:*",
     "lint-staged": "^15.2.2",
     "lodash": "^4.17.21",
     "markdownlint-cli2": "^0.13.0",
