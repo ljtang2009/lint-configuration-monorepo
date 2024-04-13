@@ -1,3 +1,10 @@
+## [0.1.1](https://github.com/ljtang2009/lint-configuration-monorepo/compare/v0.1.0...v0.1.1) (2024-04-13)
+
+
+### Performance Improvements
+
+* :zap: add lint-staged ([4515f1c](https://github.com/ljtang2009/lint-configuration-monorepo/commit/4515f1c6796f83568bbfb00594af4eca40a97494))
+
 # [0.1.0](https://github.com/ljtang2009/lint-configuration-monorepo/compare/v0.0.1...v0.1.0) (2024-04-12)
 
 
