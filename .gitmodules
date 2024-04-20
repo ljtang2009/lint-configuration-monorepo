@@ -6,3 +6,7 @@
 	path = packages/lint-configuration-website
 	url = https://github.com/ljtang2009/lint-configuration-website
 	branch = dev
+[submodule "packages/lint-configuration-docs"]
+	path = packages/lint-configuration-docs
+	url = git@github.com:ljtang2009/lint-configuration-docs.git
+	branch = dev
