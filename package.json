@@ -36,6 +36,7 @@
     "lodash": "^4.17.21",
     "markdownlint-cli2": "^0.13.0",
     "only-allow": "^1.2.1",
+    "prettier": "^3.2.5",
     "semantic-release": "^23.0.8"
   }
 }
