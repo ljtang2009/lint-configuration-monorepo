@@ -9,8 +9,8 @@
       "path": "../packages/lint-configuration"
     },
     {
-      "name": "lint-configuration-website",
-      "path": "../packages/lint-configuration-website"
+      "name": "lint-configuration-docs",
+      "path": "../packages/lint-configuration-docs"
     }
   ],
   "settings": {
