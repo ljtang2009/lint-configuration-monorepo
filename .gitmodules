@@ -10,3 +10,7 @@
 	path = packages/lint-configuration-docs
 	url = git@github.com:ljtang2009/lint-configuration-docs.git
 	branch = dev
+[submodule "packages/lint-configuration-creator"]
+	path = packages/lint-configuration-creator
+	url = git@github.com:ljtang2009/lint-configuration-creator.git
+	branch = dev
