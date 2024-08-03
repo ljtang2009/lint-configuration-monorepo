@@ -13,7 +13,10 @@
     "lint:eslint:view": "eslint-flat-config-viewer",
     "lint:eslint:fix": "time eslint --fix .",
     "lint:markdown": "markdownlint-cli2",
-    "lint:cspell": "cspell lint --show-context  --show-suggestions ."
+    "lint:cspell": "cspell lint --show-context  --show-suggestions .",
+    "audit-dep": "pnpm audit && snyk auth && snyk test",
+    "audit-dep:ci": "pnpm audit && snyk test",
+    "check-updates": "npx depcheck && npx npm-check-updates --interactive --format group"
   },
   "keywords": [],
   "author": "Logan Tang <ho_ho_gl@hotmail.com>",
@@ -27,7 +30,7 @@
     "commitizen": "^4.3.0",
     "cspell": "^8.7.0",
     "cz-git": "^1.9.1",
-    "desm": "^1.3.1",
+    "depcheck": "^1.4.7",
     "eslint": "^8.57.0",
     "globals": "^15.0.0",
     "husky": "^9.0.11",
@@ -35,8 +38,11 @@
     "lint-staged": "^15.2.2",
     "lodash": "^4.17.21",
     "markdownlint-cli2": "^0.13.0",
+    "npm-check-updates": "^17.0.0",
     "only-allow": "^1.2.1",
     "prettier": "^3.2.5",
-    "semantic-release": "^23.0.8"
+    "semantic-release": "^23.0.8",
+    "snyk": "^1.1292.1",
+    "vitest": "^2.0.1"
   }
 }
