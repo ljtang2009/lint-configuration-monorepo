@@ -12,15 +12,8 @@
       "name": "lint-configuration-creator",
       "path": "../packages/lint-configuration-creator"
     },
-    {
-      "name": "lint-configuration-website",
-      "path": "../packages/lint-configuration-website"
-    },
-    {
-      "name": "lint-configuration-docs",
-      "path": "../packages/lint-configuration-docs"
-    }
   ],
   "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "lint-configuration",
   }
 }
